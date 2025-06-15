@@ -1,7 +1,7 @@
 import GoogleImage from '../assets/images/google-icon.png'
 export default function Register() {
     return (
-        <div className=" mx-auto mt-[80px] h-screen flex flex-col md:flex-row justify-around">
+        <div className="  h-screen flex flex-col md:flex-row justify-around">
             <div className="bg-[url(./assets/images/register.png)]  bg-cover bg-center w-2/5 ">
                 <div className="text-white h-[90vh]  flex flex-col items-center justify-center">
                     <h1 className="text-4xl font-bold">Welcome back</h1>
@@ -30,9 +30,9 @@ export default function Register() {
                         <input password="text" name="name" id="name" className="w-[100%] px-4 py-2 bg-white" placeholder="Enter your password" />
                         </div>
              <div className='flex flex-col items-center'>
-                <button className="bg-primary px-6 py-2 w-[50%] flex items-center justify-center text-white rounded mt-8">Sign up</button>
+                <button className="bg-primary px-6 py-2 w-48 flex items-center justify-center text-white rounded mt-8">Sign up</button>
               <p className="pt-4 font-light text-pgray">Or</p>
-              <button className=' pt-4  border w-[70%] rounded bg-white py-2 px-20 gap-4'> <img src={GoogleImage} alt="google icon"  className='w-5 h-5 align-middle inline-block'/> Sign Up with  Google</button>
+              <button className='shadow w-80 mt-4 rounded bg-white py-2 px-4 gap-4'> <img src={GoogleImage} alt="google icon"  className='w-5 h-5 align-middle inline-block'/> Sign Up with  Google</button>
               
             
              </div>
