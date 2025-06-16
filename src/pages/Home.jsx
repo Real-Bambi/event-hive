@@ -29,7 +29,7 @@ export default function Home() {
                     <div className="items-center text-white">
                         <h1 className="font-bold mt-6">Make your own Event</h1>
                         <p className="w-40 mt-2 text-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                        <button className="text-[10px] border-0 px-8 py-1.5 mt-4 bg-[#7848F4]">Create Events</button>
+                        <Link to="/create-event"><button className="text-[10px] border-0 px-8 py-1.5 mt-4 bg-[#7848F4]">Create Events</button></Link>
                     </div>
                 </div>
             </section>
