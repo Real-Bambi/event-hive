@@ -14,6 +14,7 @@ import Stripe from "../assets/images/stripe.png"
 import Uber from "../assets/images/uber.png"
 import Youtube from "../assets/images/youtube.png"
 import Zoom from "../assets/images/zoom.png"
+import { Link } from "react-router";
 
 
 export default function Home() {
@@ -43,18 +44,18 @@ export default function Home() {
                 </div>
 
                 <div className="flex flex-row justify-center gap-8 items-center w-[15%] mx-auto">
-                    <img src={Spotify} alt="" />
-                    <img src={Google} alt="" />
-                    <img src={Stripe} alt="" />
-                    <img src={Youtube} alt="" />
-                    <img src={Microsoft} alt="" />
+                    <img src={Spotify} alt="" className="hover:scale-105" />
+                    <img src={Google} alt="" className="hover:scale-105" />
+                    <img src={Stripe} alt="" className="hover:scale-105" />
+                    <img src={Youtube} alt="" className="hover:scale-105" />
+                    <img src={Microsoft} alt="" className="hover:scale-105" />
                 </div>
 
                 <div className="flex flex-row justify-center gap-8 items-center w-[15%] mx-auto">
-                    <img src={Medium} alt="" />
-                    <img src={Zoom} alt="" />
-                    <img src={Uber} alt="" />
-                    <img src={Grab} alt="" />
+                    <img src={Medium} alt="" className="hover:scale-105" />
+                    <img src={Zoom} alt="" className="hover:scale-105" />
+                    <img src={Uber} alt="" className="hover:scale-105" />
+                    <img src={Grab} alt="" className="hover:scale-105" />
                 </div>
             </section>
 
