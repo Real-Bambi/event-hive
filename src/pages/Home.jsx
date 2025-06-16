@@ -14,6 +14,7 @@ import Stripe from "../assets/images/stripe.png"
 import Uber from "../assets/images/uber.png"
 import Youtube from "../assets/images/youtube.png"
 import Zoom from "../assets/images/zoom.png"
+import { Link } from "react-router";
 
 
 export default function Home() {
