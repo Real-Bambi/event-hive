@@ -14,7 +14,7 @@ const eventHiveRouter = createBrowserRouter([
   { path: '/view-event', element: <ViewEvent /> },
   { path: '/view-college', element: <ViewCollege /> },
   { path: '/create-event', element: <CreateEvent /> },
-  { path: '*', element: <NotFound /> },
+  { path: '/not-found', element: <NotFound /> },
 ]);
 
 function App() {
