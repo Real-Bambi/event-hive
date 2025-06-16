@@ -5,7 +5,9 @@ import CollegeEvents from "../components/CollegeEvents";
 
 export default function ViewCollege() {
     return (
+        
         <>
+        
             <Navbar />
             <CollegeDetail />
             <CollegeEvents />
