@@ -48,14 +48,10 @@ export default function CreateEvent() {
     </div>
   </form>
 
-   <button className="bg-primary h-[49px] w-full rounded-md text-white" type="submit">Create Event</button>
+  
 </div>
-
-                
-                
-               
-
                 <EventDetail />
+              <button className="bg-primary h-[49px] w-[813px] rounded-md text-white mx-auto flex flex-col justify-center" type="submit ">Create Event</button>   
             </section>
         </>
     );
