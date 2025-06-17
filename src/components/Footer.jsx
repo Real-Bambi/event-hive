@@ -19,7 +19,7 @@ export default function Footer() {
             <hr className="w-[94%] mx-auto" />
             <div className="flex justify-around gap-64 py-4">
                 <div className="flex gap-6">
-                    <button className="text-[8px]">English</button>
+                    <button className="text-[8px] bg-primary rounded-sm py-1 px-3">English</button>
                     <button className="text-[8px]">French</button>
                     <button className="text-[8px]">Hindi</button>
                 </div>

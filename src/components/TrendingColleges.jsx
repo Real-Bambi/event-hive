@@ -10,8 +10,8 @@ export default function TrendingColleges() {
             <div className="grid grid-cols-3 gap-5">
                 {[1, 2, 3].map(n => <CollegeCard key={n} />)}
             </div>
-            <div>
-                <button className="bg-primary rounded-md py-2 px-4 text-white">Load more...</button>
+            <div className="text-center mt-4">
+                <button className="bg-primary rounded-sm text-white text-[10px] border-0 px-4 py-1.5 mt-3 ">Load more...</button>
             </div>
         </section>
     );

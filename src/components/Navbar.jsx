@@ -8,7 +8,7 @@ export default function Navbar() {
                 <span className="text-primary"> Hive</span>
             </h1>
             <div className="flex justify-center gap-4">
-                <Link to="/login"><button className="text-primary p-2"><a href="#">Login</a></button></Link>
+                <Link to="/login"><button className="text-black p-2"><a href="#">Login</a></button></Link>
                 <Link to="/register"><button className="bg-primary rounded-md py-2 px-4 text-white"><a href="#">Signup</a></button></Link>
             </div>
         </nav>
