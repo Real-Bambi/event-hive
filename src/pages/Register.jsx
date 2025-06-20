@@ -22,7 +22,7 @@ export default function Register() {
 
 
     return (
-        <div className="  h-screen flex flex-col md:flex-row justify-around">
+        <div className="  md:h-screen flex  flex-row justify-around">
             <div className="bg-[url(./assets/images/register.png)]  bg-cover bg-center w-2/5 ">
                 <div className="text-white h-[90vh]  flex flex-col items-center justify-center">
                     <h1 className="text-4xl font-bold">Welcome back</h1>
