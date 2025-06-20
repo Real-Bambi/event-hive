@@ -1,7 +1,8 @@
 import GoogleImage from '../assets/images/google-icon.png'
 import SubmitButton from '../components/SubmitButton';
 import { apiClient } from '../api/client';
-import { useNavigate } from 'react-router';
+import { useNavigate, Link } from 'react-router';
+
 
 export default function Login() {
     const navigate = useNavigate();
@@ -52,7 +53,7 @@ export default function Login() {
                 <div className='flex flex-col items-center justify-center h-[100vh]'>
                     <h1 className='text-white font-bold text-3xl'>Hello Friend</h1>
                     <p className='text-white p-8 '>To keep connected with us provide us with your information</p>
-                    <button className='text-white bg-lightWhite pt-4 px-6 py-2 rounded '>Sign Up</button>
+                    <Link to={'/register'}><button className='text-white bg-lightWhite pt-4 px-6 py-2 rounded '>Sign Up</button></Link>
                 </div>
             </div>
         </div>
