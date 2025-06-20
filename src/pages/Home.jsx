@@ -26,7 +26,7 @@ export default function Home() {
             {/* Make your own event section goes here */}
             <section className="bg-blue-950 mt-50">
                 <div className="flex flex-row">
-                    <div><img src={Banner} alt="" className="px-8 h-[27vh] ml-40 mt-[-30px]" /></div>
+                    <div className=" animate-pulse"><img src={Banner} alt="" className="px-8 h-[27vh] ml-40 mt-[-30px]" /></div>
                     <div className="items-center text-white">
                         <h1 className="font-bold mt-6">Make your own Event</h1>
                         <p className="w-40 mt-2 text-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
