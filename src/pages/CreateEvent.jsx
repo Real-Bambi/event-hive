@@ -1,4 +1,4 @@
-import EventDetail from "../components/EventDetail";
+
 import Navbar from "../components/Navbar";
 import useSWR from "swr";
 import { apiFetcher, apiClient } from "../api/client";
@@ -21,7 +21,7 @@ export default function CreateEvent() {
       navigate(`/view-event?id = ${response.data.data.id}`);
 
     } catch (error) {
-      console.log(error)
+      console.log(error);
 
     }
   }
@@ -37,8 +37,8 @@ export default function CreateEvent() {
           <form action={postEvent} className=" w-[816px] min-h-[460px] flex flex-col p-5 mx-auto gap-[33px] ">
 
             <div>
-              <label className=" text-sm mb-2">College</label>
-              <select name="college" id="" className="w-full p-3 rounded-md  bg-white">
+              <label htmlFor="EVent Title" className=" text-sm mb-2"> Select College</label>
+              <select name="college" id="" className="w-full p-3 rounded-md  bg-white" placeholder="Enter event title">
                 {isLoading ? <option value="">loading...</option> :
                   error ? <option value="">Something went wrong</option> :
                     data.data.map((college) => {
