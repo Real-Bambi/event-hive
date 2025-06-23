@@ -5,6 +5,7 @@ import { ClipLoader } from "react-spinners";
 
 export default function TrendingColleges() {
     const { data, error, isLoading } = useSWR('/colleges?limit=3&skip=4', apiFetcher);
+    console.log(data)
    
 
     if (isLoading) {
