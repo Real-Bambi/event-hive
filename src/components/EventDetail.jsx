@@ -5,13 +5,13 @@ import facebookIcon from '../assets/images/facebook.png'
 import linkedinIcon from '../assets/images/linkedin.png'
 import twitterIcon from '../assets/images/twitter.png'
 import youtube from '../assets/images/youtube.png'
-
+                                 
 
 
 export default function EventDetail() {
     return (
         <>
-            <div className="flex bg-[url('./assets/images/event.png')] bg-cover bg-center w-[1320px] min-h-[595px]mx-auto justify-center" >
+            <div className=" bg-[url('./assets/images/event.png')] bg-cover w-[1320px] min-h-[595px]    mx-auto " >
                 <div className='flex flex-row justify-between pb-[100px]'>
                     <div className=' '>
                         <div className='pl-[60px] pt-[30px] '>
