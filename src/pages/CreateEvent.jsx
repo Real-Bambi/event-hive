@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import useSWR from "swr";
 import { apiFetcher, apiClient } from "../api/client";
 import SubmitButton from "../components/SubmitButton";
-import { useNavigate } from "react-router";
+import { Navigate, useNavigate } from "react-router";
 
 export default function CreateEvent() {
   const navigate = useNavigate();
@@ -26,10 +26,14 @@ export default function CreateEvent() {
     }
   }
 
-  return (
-    <>
-      <Navbar />
-      <section className="bg-gray-50  ">
+if(!localStorage.getItem("ACCESS_TOKEN")) {
+  return <Navigate to={"/login"} />;
+}
+
+return (
+  <>
+    <Navbar />
+    <section className="bg-gray-50  ">
 
         <div className=" ">
           <h1 className="text-big-heading font-bold text-center mb-4 pt-16">Create Event</h1>
