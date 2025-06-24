@@ -29,7 +29,7 @@ export default function Register() {
                     <p className="p-8 text-center"> To keep connected with us provide us with your information</p>
                     <Link to={'/login'}><button className="bg-lightWhite px-6 py-2 rounded">Sign In</button></Link>
                 </div>
-            </div>
+            </div>  
             <div className="w-3/5 items-center justify-center bg-bgGrey">
                 <h1 className="text-2xl font-bold text-center">Event <span className="text-purple-600">Hive</span></h1>
                 <h2 className="text-3xl font-medium p-4 text-center">Sign Up to Event Hive</h2>
